@@ -1,0 +1,64 @@
+.container{
+    width: 950px;
+    height: 700px;
+    background-color: silver;
+    padding: 25px;
+    margin: 0px auto;
+    /*display:flex;*/
+}
+
+.top-nav {
+    height: 150px;
+    background-color: green;
+}
+
+.side-nav {
+    height: 300px;
+    width: 200px;
+    margin-top: 25px;
+    border: 1px;
+    background-color: blue;   
+}
+
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    /*display:flex;*/
+    margin-top: 25px;
+    padding: 12.5px;
+
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 12.5px;
+    display: flex;
+    
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+    padding-right: 17px;
+}
+
+.sub{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+
